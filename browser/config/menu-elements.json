@@ -1,0 +1,16 @@
+{
+    "menu":{
+	"scm": [
+            "contributors",
+            "domains",
+            "repos"
+	],
+	"its": [
+            "contributors",
+            "domains",
+            "repos"
+	]
+    },
+    "releases":[],
+    "threads_site":"https://groups.google.com/"
+}
