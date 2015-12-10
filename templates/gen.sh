@@ -85,8 +85,8 @@ python build_panel.py --template body.template --content common/list-of-filters.
 python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scm-organizations > ../browser/scm-organizations.html
 
 # scr (Github)
-#python apply_template.py --template body.template --content scr_github/overview.tmpl > ../browser/scr.html
-#python apply_template.py --template body.template --content scr_github/contributors.tmpl > ../browser/scr-contributors.html
+python apply_template.py --template body.template --content scr_github/overview.tmpl > ../browser/scr.html
+python apply_template.py --template body.template --content scr_github/contributors.tmpl > ../browser/scr-contributors.html
 
 #scr (gerrit)
 #python apply_template.py --template body.template --content scr_gerrit/overview.tmpl > ../browser/scr.html
@@ -97,12 +97,12 @@ python build_panel.py --template body.template --content common/list-of-filters.
 #python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-companies > ../browser/scr-companies.html
 #python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-countries > ../browser/scr-countries.html
 #python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-projects > ../browser/scr-projects.html
-#python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-repos > ../browser/scr-repos.html
+python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-repos > ../browser/scr-repos.html
 #python build_panel.py --template body.template --content common/list-of-filters.tmpl --conf conf/main.conf --panel scr-organizations > ../browser/scr-organizations.html
 
 # wiki
-#python apply_template.py --template body.template --content wiki/overview.tmpl > ../browser/wiki.html
-#python apply_template.py --template body.template --content wiki/contributors.tmpl > ../browser/wiki-contributors.html
+python apply_template.py --template body.template --content wiki/overview.tmpl > ../browser/wiki.html
+python apply_template.py --template body.template --content wiki/contributors.tmpl > ../browser/wiki-contributors.html
 
 # downloads
 #python apply_template.py --template body.template --content downloads/overview.tmpl > ../browser/downloads.html
